@@ -1,0 +1,23 @@
+{
+  "name": "miko-sockr-mariadb",
+  "version": "1.0.0",
+  "description": "MariaDB driver for miko-sockr library",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffmiko/miko-sockr-mariadb.git"
+  },
+  "author": "Jeff A. Miko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffmiko/miko-sockr-mariadb/issues"
+  },
+  "homepage": "https://github.com/jeffmiko/miko-sockr-mariadb#readme",
+  "dependencies": {
+    "mariadb": "^2.5.3",
+    "miko-sockr": "git+https://github.com/jeffmiko/miko-sockr.git"
+  }
+}
