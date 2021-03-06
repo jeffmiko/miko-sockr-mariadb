@@ -19,5 +19,8 @@
   "dependencies": {
     "mariadb": "^2.5.3",
     "miko-sockr": "git+https://github.com/jeffmiko/miko-sockr.git"
+  },
+  "devDependencies": {
+    "redis": "^3.0.2"
   }
 }
